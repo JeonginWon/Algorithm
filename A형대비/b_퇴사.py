@@ -19,4 +19,3 @@ for n in range(N):
             pass
             #근무 불가능
             
-# print(time)
