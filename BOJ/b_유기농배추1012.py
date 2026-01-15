@@ -18,7 +18,7 @@ for _ in range(T):
             if field[y][x] == 1:
                 cnt += 1
                 stack = [(x, y)]
-                field[y][x] = 0  # 방문 처리
+                field[y][x] = 0  # 방문 처리 stack구조
 
                 while stack:
                     cx, cy = stack.pop()
